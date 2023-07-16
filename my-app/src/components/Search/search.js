@@ -203,7 +203,7 @@ export default function Search() {
                 </a>
               </div>
             </div>
-          </div>xcxg
+          </div>
           {/* <Footer/> */}
         </div>
       </div>
