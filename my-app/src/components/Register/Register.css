@@ -1,0 +1,163 @@
+.register {
+    display: grid;
+    width: 430px;
+  
+    margin: 20px auto;
+  }
+  
+  .register .spotify-icon {
+    font-size: 40px;
+    place-content: center;
+  }
+  
+  .register .spot {
+    letter-spacing: -1px;
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+  }
+  .register h3 {
+    letter-spacing: -2px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .facebook-icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 15px 30px;
+    color: white;
+    background: #405a93;
+    border: 2px solid #405a93;
+    margin-bottom: 20px;
+  }
+  
+  .google-icon {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 15px 30px;
+    border: 2px solid #535353;
+    margin-bottom: 15px;
+  }
+  
+  .lines-after {
+    position: relative;
+    font-size: 14px;
+    color: #535353;
+    margin-bottom: 25px;
+    margin-inline: auto;
+  }
+  
+  .lines-after::after {
+    content: "";
+    width: 190px;
+    height: 0.5px;
+    position: absolute;
+    background-color: #cccccc;
+    bottom: 8px;
+    left: 28px;
+  }
+  .lines-after::before {
+    content: "";
+    width: 190px;
+    height: 0.5px;
+    position: absolute;
+    background-color: #cccccc;
+    bottom: 8px;
+    right: 28px;
+  }
+  
+  .register h5 {
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .register select {
+    width: 35%;
+    padding: 10px 20px;
+  }
+  .Day {
+    width: 20%;
+    padding: 10px 20px;
+  }
+  .Day::placeholder {
+    font-size: 20px;
+    text-align: center;
+  }
+  .year {
+    font-size: 20px;
+    width: 25%;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .color-green {
+    color: #1ed760;
+  }
+  
+  .font-10 {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  
+  .font-14 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .input-type {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  
+  #male,
+  #female,
+  #not,
+  #others,
+  #non {
+    margin-right: 10px;
+    accent-color: #1ed760;
+  }
+  
+  .font-12 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  
+  .register-signup {
+    font-size: 1.125rem;
+    font-weight: 700;
+    width: 150px;
+    margin: 0px auto;
+    padding: 16px 20px;
+    border-radius: 50px;
+    background: #1ed760;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .accent {
+    accent-color: #1ed760;
+    width: 20px;
+  }
+  
+  

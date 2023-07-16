@@ -1,0 +1,50 @@
+.error-page {
+    display: grid;
+    flex-direction: column;
+    margin: auto 0px;
+    width:100vw;
+    place-items: center;
+     place-content: center;
+    height: 100vh;
+  }
+  
+  .error-page .spot-icon{
+    color: #1ed760;
+  font-size: 60px;
+  }
+  .error-page h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .error-page p{
+    color: #A7A7A7;
+    font-size: 16px;
+  }
+  
+  .Home-btn{
+    padding: 14px 34px;
+    border-radius: 50px;
+    background-color:white ;
+    font-size: 16px;
+    font-weight: 700;
+  border: none;
+  
+  
+  }
+  .Home-btn .go-home{
+    text-decoration: none;
+    color: black;
+    padding-right: 0;
+  }
+  .error-page span{
+    margin-top: 15px;
+    font: 16px;
+    color: #ffff;
+   cursor: pointer;
+  }
+  
+  .error-page span:hover{
+    text-decoration:underline;
+  }
