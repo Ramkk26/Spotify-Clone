@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Spotify-Clone/static/css/main.fa37c537.css",
+    "main.js": "/Spotify-Clone/static/js/main.760da364.js",
+    "static/media/place-1.jpg": "/Spotify-Clone/static/media/place-1.81d62d1a6d4f595e4d4f.jpg",
+    "static/media/place.jpg": "/Spotify-Clone/static/media/place.cd959a44d4fe29543ed6.jpg",
+    "static/media/place-2.jpg": "/Spotify-Clone/static/media/place-2.66b946f6b7dbb43bd225.jpg",
+    "static/media/music-4.jpg": "/Spotify-Clone/static/media/music-4.de74cb8a35429282f962.jpg",
+    "static/media/music-3.jpg": "/Spotify-Clone/static/media/music-3.45a5b0188657b8514a4e.jpg",
+    "static/media/music-1.jpg": "/Spotify-Clone/static/media/music-1.2752af59bb3f6fa15ed1.jpg",
+    "static/media/search-img.jpg": "/Spotify-Clone/static/media/search-img.e49782c93207577f0fff.jpg",
+    "index.html": "/Spotify-Clone/index.html",
+    "main.fa37c537.css.map": "/Spotify-Clone/static/css/main.fa37c537.css.map",
+    "main.760da364.js.map": "/Spotify-Clone/static/js/main.760da364.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa37c537.css",
+    "static/js/main.760da364.js"
+  ]
+}
