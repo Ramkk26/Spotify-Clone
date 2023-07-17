@@ -21,8 +21,8 @@ function App() {
     switch (currentRoute) {
       case "/":
         return <Layout />;
-      case "/Spotify-Clone":
-        return <Layout />;
+      // case"/Spotify-Clone":
+      //   return <Layout />;
       case "/search":
         return <Search />;
       case "/Register":
