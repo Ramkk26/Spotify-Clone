@@ -1,0 +1,131 @@
+.navBar ul li {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  
+  .navBar ul li svg,
+  .library-sec ul li .library-icon {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 15px;
+  }
+
+  .home,
+.search {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.navBar {
+    background: #121212;
+    color: #b3b3b3;
+    padding: 30px 0 0px 35px;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .library-sec {
+    background: #121212;
+    color: #b3b3b3;
+    border-radius: 5px;
+  }
+  
+  .library-sec ul li {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  .library-sec ul li .plus-icon {
+    font-size: 15px;
+  }
+  .library-title {
+    font-size: 16px;
+    padding-left: 10px;
+  }
+  
+  .scroll-sec {
+    overflow-y: scroll;
+    height: 100px;
+    color: #ffff;
+    margin-bottom: 20px;
+    padding: 0px 0px 20px 0;
+  }
+  
+  .scroll-sec h2 {
+    font-size: 16px;
+    color: #ffff;
+  }
+  
+  ::-webkit-scrollbar {
+    background: linear-gradient(90deg, #242424, #000);
+    width: 10px;
+    height: 30px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: hsla(0, 0%, 100%, 0.3);
+    border-radius: 50px;
+    transition: 0.3s all;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #b3b3b3;
+  }
+  
+  @supports (scrollbar-color: red blue) {
+    * {
+      scrollbar-color: black #242424;
+    }
+  }
+  
+  .playlist-btn {
+    color: black;
+    border-radius: 50px;
+    padding: 4px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    background: #ffff;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .playlist-1,
+  .playlist-2 {
+    padding: 15px 20px 15px 30px;
+    background: #242424;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .playlist-1 span,
+  .playlist-2 span {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .nav-list {
+    background: #121212;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+  }
+  .nav-list ul li {
+    font-size: 10px;
+  }
+  
+  .lang-btn {
+    padding: 2px 12px;
+    border-radius: 50px;
+    border: 1px solid #ffff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: #121212;
+    color: #ffff;
+    margin-left: 30px;
+  }
+  
