@@ -1,16 +1,80 @@
 .header {
-    grid-area: header;
-    background: #111111;
-    padding: 10px 20px;
+  grid-area: header;
+  background: #111111;
+  padding: 10px 20px;
+}
+.header-left svg {
+  color: #a7a7a7;
+  cursor: not-allowed;
+}
+.header-right span {
+  font-size: 14px;
+  color: #a7a7a7;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 20%;
+  left: 79%;
+  width: 20%;
+  z-index: 999;
+}
+.dropdownMenu.active {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(0);
+}
+.dropdownMenu.inactive {
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-30px);
+}
+@media (max-width: 1200) {
+  .menubar {
+    visibility: hidden;
   }
-  .header-left svg {
-    color: #a7a7a7;
-    cursor: not-allowed;
+  .dropdownMenu {
+    display: none;
   }
-  .header-right span {
-    font-size: 14px;
-    color: #a7a7a7;
-    font-weight: 700;
-    cursor: not-allowed;
+}
+@media (max-width: 992px) {
+  .menubar {
+    visibility: hidden;
   }
-  
+  .dropdownMenu {
+    display: none;
+  }
+  .Header-tab {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .dropdownMenu {
+    display: grid;
+    position: absolute;
+    top:6%;
+    left: 54%;
+    width: 44%;
+    z-index: 999;
+  }
+  .menubar {
+    visibility: visible;
+  }
+}
+@media (max-width: 576px) {
+  .dropdownMenu {
+    display: grid;
+    position: absolute;
+    top: 6%;
+    left: 35%;
+    width: 62%;
+    z-index: 999;
+  }
+
+  .Header-tab {
+    width: 100vw;
+  }
+}

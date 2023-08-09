@@ -1,33 +1,85 @@
 .signup-bar {
-    grid-area: signup-bar;
-    background: linear-gradient(90deg, #af2896, #509bf5);
-    margin: 5px 10px 5px 10px;
-    background: #000;
-  }
-  .signbar {
-    padding: 11px 24px 7px 15px;
-    height: 75px;
-    z-index: 9999;
-    background: linear-gradient(90deg, #af2896, #509bf5);
-  }
-  .signbar h3 {
-    font-size: 14px;
-    font-weight: 400;
-    color: #ffff;
-  }
-  .signbar p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #ffff;
-  }
-  
+  grid-area: signup-bar;
+  background: linear-gradient(90deg, #af2896, #509bf5);
+  margin: 5px 10px 5px 10px;
+  background: #000;
+}
+.signbar {
+  padding: 11px 24px 7px 15px;
+  height: 75px;
+  z-index: 9999;
+  background: linear-gradient(90deg, #af2896, #509bf5);
+}
+.signbar h3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffff;
+}
+.signbar p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffff;
+}
+
+.signup-btn,
+.log-btn {
+  padding: 12px 32px;
+  background: #ffff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50px;
+  border: none;
+}
+
+@media (max-width: 576px) {
   .signup-btn,
   .log-btn {
-    padding: 12px 32px;
+    padding: 0px 23px;
     background: #ffff;
     color: #000;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     border-radius: 50px;
     border: none;
   }
+  .signup-bar {
+    grid-area: signup-bar;
+    background: linear-gradient(90deg, #af2896, #509bf5);
+    margin: 5px 70px 5px 10px;
+    background: #000;
+  }
+  .signbar p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffff;
+  }
+  .footer-list ul {
+    padding: 0 10px;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .signbar {
+    padding: 11px 24px 7px 15px;
+    height: 130px;
+    z-index: 9999;
+    background: linear-gradient(90deg, #af2896, #509bf5);
+  }
+  .signup-btn,
+  .log-btn {
+    padding: 0px 23px;
+    background: #ffff;
+    color: #000;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}

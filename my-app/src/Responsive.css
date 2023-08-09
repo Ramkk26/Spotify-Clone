@@ -1,0 +1,39 @@
+@media (max-width: 576px) {
+  .side-bar {
+    display: none;
+  }
+  .music-container {
+    margin-top: 10px;
+    overflow-y: scroll;
+    height: 413px;
+    border-radius: 10px;
+    width: 100vw;
+  }
+  .dropdownMenu {
+    position: absolute;
+    top: 33%;
+    left: 39%;
+    width: 50%;
+    z-index: 999;
+    background: black;
+  }
+  .menubar svg {
+    visibility: visible;
+  }
+}
+@media (max-width: 768px) {
+  .side-bar {
+    display: none;
+  }
+  .music-container {
+    margin-top: 10px;
+    overflow-y: scroll;
+    height: 413px;
+    border-radius: 10px;
+    width: 100vw;
+  }
+}
+@media (max-width: 998px) {
+}
+@media (max-width: 1200px) {
+}

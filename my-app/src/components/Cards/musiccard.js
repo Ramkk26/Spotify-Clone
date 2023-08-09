@@ -1,8 +1,7 @@
 import "./Card.css";
-
 export default function MUsicCard(props) {
   return (
-    <div className="music-list">
+    <div className="music-list col-lg-3 col-md-6 col-sm-6 text-center text-white">
       <div className="music-area">
         <img
           className="music-img"

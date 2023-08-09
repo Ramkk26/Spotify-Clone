@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Responsive.css";
 import Navbar from "./components/Navbar/navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Layout from "./components/Layout/layout";
@@ -20,22 +21,23 @@ function App() {
   const renderPage = () => {
     switch (currentRoute) {
       case "/":
-        return <Layout />;
+        return <Layout setCurrentRoute={setCurrentRoute} />;
       case "/search":
-        return <Search />;
+        return <Search setCurrentRoute={setCurrentRoute}/>;
       case "/Register":
         return <Register />;
       default:
         return <Errorpages />;
     }
   };
+
   return (
     <section
       className={location.pathname !== "/Register" ? "Nav-section" : "register"}
     >
       <div className="side-bar">
         {location.pathname === "/Search" || location.pathname === "/" ? (
-          <Navbar setCurrentRoute={setCurrentRoute}/>
+          <Navbar setCurrentRoute={setCurrentRoute} />
         ) : (
           ""
         )}

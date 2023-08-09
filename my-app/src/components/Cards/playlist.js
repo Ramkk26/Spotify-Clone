@@ -1,10 +1,8 @@
 import "./Card.css";
 
-
-
 export default function Playlist(playProps) {
   return (
-    <div className="PLayList-items">
+    <div className="PLayList-items col-lg-3 col-md-6 col-sm-6 text-center">
       <div className="music-area">
         <img
           className="music-img"

@@ -4,22 +4,29 @@ import "./Navbar.css";
 import { FaWarehouse, FaSearch, FaBook, FaPlus, FaGlobe } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-
-export default function Navbar({setCurrentRoute}) {
-
+export default function Navbar(props) {
+  console.log(props)
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="">
+        <div className="Navbar-list">
           <div className="navBar">
             <ul className="list-unstyled ">
               <li className="d-flex align-items-center">
-                <Link to="/" className="home" onClick={() => setCurrentRoute('/')}>
+                <span
+                   
+                  className="home"
+                  onClick={() => props.setCurrentRoute('/')} 
+                >
                   <FaWarehouse /> Home
-                </Link>
+                </span>
               </li>
-              <li className="d-flex align-items-center" >
-                <span   className="search" onClick={() => setCurrentRoute('/search')}   >
+              <li className="d-flex align-items-center">
+                
+                <span 
+                  className="search"
+                  onClick={() => props.setCurrentRoute('/search')} 
+                >
                   <FaSearch /> Search
                 </span>
               </li>
