@@ -4,7 +4,7 @@
   color: white;
   margin: 20px auto;
   position: absolute;
-  top: 220%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -172,6 +172,25 @@
     display: grid;
     width: 308px;
     margin: 20px auto;
-
-  }
+    position: absolute;
+    top: 112%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+}
+/* @media (max-width: 768px) {
+ 
+  .register {
+    display: grid;
+    width: 308px;
+    margin: 20px auto;
+    position: absolute;
+    top: 187%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+  } */
