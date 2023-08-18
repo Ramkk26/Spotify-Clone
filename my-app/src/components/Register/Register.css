@@ -3,6 +3,11 @@
   width: 430px;
   color: white;
   margin: 20px auto;
+  position: absolute;
+  top: 220%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 .register .spotify-icon {
@@ -167,9 +172,6 @@
     display: grid;
     width: 308px;
     margin: 20px auto;
-    position: absolute;
-    top: 220%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
   }
+}
