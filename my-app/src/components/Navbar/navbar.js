@@ -3,32 +3,24 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./Navbar.css";
 import { FaWarehouse, FaSearch, FaBook, FaPlus, FaGlobe } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import React from "react";
 
-export default function Navbar(props) {
-  console.log(props)
+export default function Navbar({hidden}) {
   return (
-    <div className="container-fluid">
+    <div className={`container-fluid ${hidden?"hide-it":""}`}>
       <div className="row">
         <div className="Navbar-list">
           <div className="navBar">
             <ul className="list-unstyled ">
               <li className="d-flex align-items-center">
-                <span
-                   
-                  className="home"
-                  onClick={() => props.setCurrentRoute('/')} 
-                >
+                <Link to="/" className="home">
                   <FaWarehouse /> Home
-                </span>
+                </Link>
               </li>
               <li className="d-flex align-items-center">
-                
-                <span 
-                  className="search"
-                  onClick={() => props.setCurrentRoute('/search')} 
-                >
+                <Link to="/Search" className="search">
                   <FaSearch /> Search
-                </span>
+                </Link>
               </li>
             </ul>
           </div>

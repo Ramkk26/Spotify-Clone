@@ -1,14 +1,11 @@
 import "./Header.css";
 import Navbar from "../Navbar/navbar";
 
-import {
-  FaArrowLeft,
-  FaArrowRight,
-  FaBars} from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-export default function Header({setCurrentRoute}) {
+export default function Header( ) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -28,7 +25,7 @@ export default function Header({setCurrentRoute}) {
         </span>
 
         <div className={`dropdownMenu ${open ? "active" : "inactive"}`}>
-          <Navbar setCurrentRoute={setCurrentRoute} />
+          <Navbar/>
         </div>
         <span>
           <Link to="/Register">Sign up</Link>

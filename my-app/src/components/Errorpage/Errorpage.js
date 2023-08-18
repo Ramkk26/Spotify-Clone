@@ -2,7 +2,7 @@ import { FaSpotify } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Errorpage.css";
 
-export default function Errorpages() {
+export default function Errorpage() {
   return (
     <div className="error-page ">
       <i className="spot-icon pb-3">

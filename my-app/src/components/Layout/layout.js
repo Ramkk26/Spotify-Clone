@@ -4,8 +4,10 @@ import PlatlistData from "../Cards/playListData";
 import Playlist from "../Cards/playlist";
 import MusicLIstdata from "../Cards/musicListDatA";
 import Header from "../Header/header";
+import Navbar from "../Navbar/navbar";
+import SignupBar from "../SignupBar/SignupBar";
 
-export default function Layout({setCurrentRoute}) {
+export default function Layout( ) {
   let card = MusicLIstdata.map((carditem) => {
     return (
       <MusicCard
@@ -30,8 +32,10 @@ export default function Layout({setCurrentRoute}) {
     );
   });
   return (
+    <>  
+     <Navbar hidden={true} />
     <div className="Layout">
-      <Header setCurrentRoute={setCurrentRoute} />
+      <Header   />
       <div className="music-container">
         <div className="scroll-it">
           <div className="music-head d-flex  align-items-center justify-content-between">
@@ -61,5 +65,7 @@ export default function Layout({setCurrentRoute}) {
         <Footer />
       </div>
     </div>
+    <SignupBar/>
+    </>
   );
 }

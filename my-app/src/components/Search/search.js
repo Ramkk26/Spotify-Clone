@@ -1,11 +1,16 @@
 import SearchImg from "../../images/search-img.jpg";
 import Header from "../Header/header";
+import Navbar from "../Navbar/navbar";
+import SignupBar from "../SignupBar/SignupBar";
 import "./Search.css";
 
-export default function Search({setCurrentRoute }) {
+export default function Search( ) {
   return (
+    <>
+    <Navbar hidden={true}/>
+
     <div className="Header-tab">
-      <Header setCurrentRoute={setCurrentRoute} />
+      <Header   />
 
       <div class="card-details Search-image">
         <div class="container-fluid">
@@ -204,5 +209,7 @@ export default function Search({setCurrentRoute }) {
         </div>
       </div>
     </div>
+    <SignupBar/>
+    </>
   );
 }

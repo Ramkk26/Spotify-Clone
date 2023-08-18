@@ -1,11 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Signup.css";
 export default function SignupBar() {
-  // const [isConditionMet, setIsConditionMet] = useState(false);
-  // const handleConditionChange = () => {
-  //   setIsConditionMet(!isConditionMet);
-  // };
-  // const backgroundColor = isConditionMet ? 'white' : '';
   return (
     <div className=" signup-bar">
       <div className="container-fluid">

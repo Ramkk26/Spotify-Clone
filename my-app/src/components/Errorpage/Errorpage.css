@@ -46,3 +46,26 @@
 .error-page span:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  .error-page {
+    display: grid;
+    flex-direction: column;
+    margin: auto 0px;
+    width: 100vw;
+    place-items: center;
+    place-content: center;
+    height: 65vh;
+  }
+}
+@media (max-width: 768px) {
+  .error-page {
+    display: grid;
+    flex-direction: column;
+    margin: auto 0px;
+    width: 100vw;
+    place-items: center;
+    place-content: center;
+    height: 65vh;
+  }
+}

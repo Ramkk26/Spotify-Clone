@@ -104,9 +104,8 @@ a {
 input {
   outline: none;
 }
-.card-content-main{
-
-justify-content: space-between;
+.card-content-main {
+  justify-content: space-between;
 }
 .card-content a {
   text-decoration: none;
@@ -133,8 +132,7 @@ justify-content: space-between;
   text-decoration: none;
 }
 
-
-@media(max-width:578px){
+@media (max-width: 578px) {
   .card-content {
     width: 50%;
     height: 170px;
@@ -143,10 +141,9 @@ justify-content: space-between;
     color: #ffffff;
     padding: 20px 15px;
     border-radius: 10px;
-}
+  }
 
-.card-content-main{
-
-  justify-content: center;
+  .card-content-main {
+    justify-content: center;
   }
 }

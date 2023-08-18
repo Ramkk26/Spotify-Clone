@@ -20,9 +20,13 @@
   .menubar svg {
     visibility: visible;
   }
+  .hide-it{
+    display: none;
+  }
 }
 @media (max-width: 768px) {
-  .side-bar {
+
+  .hide-it{
     display: none;
   }
   .music-container {
@@ -32,8 +36,4 @@
     border-radius: 10px;
     width: 100vw;
   }
-}
-@media (max-width: 998px) {
-}
-@media (max-width: 1200px) {
 }
