@@ -1,0 +1,84 @@
+
+
+[{
+   " id":1,
+   "headLine":"Podcasts",
+  "Url" : "https://i.scdn.co/image/567158eb895ad26718a814345af0fc43ee785ec5",
+  "background_color" : "#27856A"
+},{
+    " id":2,
+    "headLine":"Made For You",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color" : "#1E3264"
+ },{
+    " id":3,
+    "headLine":"Charts",
+   "Url" : "https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg",
+   "background_color" : "#1E3264"
+ },{
+    " id":4,
+    "headLine":"New Releases",
+   "Url" : "https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112",
+   "background_color" : "#E8115B"
+ },{
+    " id":5,
+    "headLine":"Podcasts",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color" : "#8D67AB"
+ },{
+    " id":6,
+    "headLine":"Podcasts",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color":"#7358FF"
+ },{
+    " id":7,
+    "headLine":"Podcasts",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color" : "#B49BC8"
+ },{
+    " id":8,
+    "headLine":"Punjabi",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color" : "#F037A5"
+ },{
+    " id":9,
+    "headLine":"Tamil",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color" : "#9CF0E1"
+ },{
+    " id":10,
+    "headLine":"telugu",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color" : "#D7F27D"
+ },{
+    " id":11,
+    "headLine":"Indie",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color":"#8D67AB"
+ },{
+    " id":12,
+    "headLine":"Gaming",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color" : "#E8115B"
+ },{
+    " id":13,
+    "headLine":"Podcasts",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color" : "#1E3264"
+ },{
+    " id":14,
+    "headLine":"EQUAL",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color" : "#148A08"
+ },{
+    " id":15,
+    "headLine":"Pop",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color" : "#AF2896"
+ },{
+    " id":16,
+    "headLine":"Fresh Finds",
+   "Url" : "https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe",
+   "background_color" : "#EB1E32"
+ 
+ }]

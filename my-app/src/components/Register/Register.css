@@ -173,24 +173,9 @@
     width: 308px;
     margin: 20px auto;
     position: absolute;
-    top: 112%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 }
-/* @media (max-width: 768px) {
- 
-  .register {
-    display: grid;
-    width: 308px;
-    margin: 20px auto;
-    position: absolute;
-    top: 187%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
-
-  } */
