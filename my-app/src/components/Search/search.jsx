@@ -4,7 +4,7 @@ import Header from "../Header/header";
 import Navbar from "../Navbar/navbar";
 import SignupBar from "../SignupBar/SignupBar";
 import "./Search.css";
-import JsonData from "../json/music.json"
+import JsonData from "../json/musicData.json"
 export default function Search() {
   const [data, setData] = useState([]);
 
